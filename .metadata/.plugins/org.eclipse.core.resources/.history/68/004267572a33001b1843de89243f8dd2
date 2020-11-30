@@ -1,0 +1,46 @@
+package com.springjpa.freelancetask.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springjpa.freelancetask.entity.Circle;
+import com.springjpa.freelancetask.entity.District;
+import com.springjpa.freelancetask.repository.CircleRepository;
+
+@Service
+public class CircleService {
+
+	@Autowired
+	private CircleRepository circleRepository;
+	
+	@Autowired
+	private DistrictService divisionService;
+	
+	public District getDivision(Integer districtId) {
+		 District division = divisionService.getDivisionByDistrictId(districtId);
+		 return division;
+	}
+
+	public List<Circle> getCircles() {
+		return circleRepository.findAll();
+	}
+
+	public boolean addCircle(Circle circle) {
+		boolean status = false;
+		Circle dist = circleRepository.save(circle);
+		if (null != dist) {
+			status = true;
+		}
+		return status;
+	}
+
+	public List<Circle> getCirclesByDistrict(String districtName) {
+		List<Circle> districtList = null;
+		if(null != districtName && !"".equals(districtName.trim())) {
+			districtList = circleRepository.findByDivisionName(districtName.trim());
+		}		
+		return districtList;
+	}
+}

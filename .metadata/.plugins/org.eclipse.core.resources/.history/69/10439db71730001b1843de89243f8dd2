@@ -1,0 +1,16 @@
+package com.springjpa.freelancetask.entity;
+
+public class Division {
+	private Integer id;
+	private String name;
+	
+	public Division() {}
+	
+	public Division(Integer id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
+	
+}

@@ -1,0 +1,186 @@
+[
+    {
+        "id": 6,
+        "name": "Kolkata",
+        "division": {
+            "id": 1,
+            "name": "Presidency"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Howrah",
+        "division": {
+            "id": 1,
+            "name": "Presidency"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nadia",
+        "division": {
+            "id": 1,
+            "name": "Presidency"
+        }
+    },
+    {
+        "id": 9,
+        "name": "North 24 Praganas",
+        "division": {
+            "id": 1,
+            "name": "Presidency"
+        }
+    },
+    {
+        "id": 10,
+        "name": "South 24 Praganas",
+        "division": {
+            "id": 1,
+            "name": "Presidency"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Bankura",
+        "division": {
+            "id": 2,
+            "name": "Medinipur"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Jhargram",
+        "division": {
+            "id": 2,
+            "name": "Medinipur"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Paschim Medinipur",
+        "division": {
+            "id": 2,
+            "name": "Medinipur"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Purba Medinipur",
+        "division": {
+            "id": 2,
+            "name": "Medinipur"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Purulia",
+        "division": {
+            "id": 2,
+            "name": "Medinipur"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Birbhum",
+        "division": {
+            "id": 3,
+            "name": "Burdwan"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Hooghly",
+        "division": {
+            "id": 3,
+            "name": "Burdwan"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Paschim Bardhaman",
+        "division": {
+            "id": 3,
+            "name": "Burdwan"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Purba Bardhaman",
+        "division": {
+            "id": 3,
+            "name": "Burdwan"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Malda",
+        "division": {
+            "id": 4,
+            "name": "Malda"
+        }
+    },
+    {
+        "id": 21,
+        "name": "Murshidabad",
+        "division": {
+            "id": 4,
+            "name": "Malda"
+        }
+    },
+    {
+        "id": 22,
+        "name": "Dakshin Dinajpur",
+        "division": {
+            "id": 4,
+            "name": "Malda"
+        }
+    },
+    {
+        "id": 23,
+        "name": "Uttar Dinajpur",
+        "division": {
+            "id": 4,
+            "name": "Malda"
+        }
+    },
+    {
+        "id": 24,
+        "name": "Jalpaiguri",
+        "division": {
+            "id": 5,
+            "name": "Jalpaiguri"
+        }
+    },
+    {
+        "id": 25,
+        "name": "Alipurduar",
+        "division": {
+            "id": 5,
+            "name": "Jalpaiguri"
+        }
+    },
+    {
+        "id": 26,
+        "name": "Cooch Behar",
+        "division": {
+            "id": 5,
+            "name": "Jalpaiguri"
+        }
+    },
+    {
+        "id": 27,
+        "name": "Darjeeling",
+        "division": {
+            "id": 5,
+            "name": "Jalpaiguri"
+        }
+    },
+    {
+        "id": 28,
+        "name": "Kalimpong",
+        "division": {
+            "id": 5,
+            "name": "Jalpaiguri"
+        }
+    }
+]

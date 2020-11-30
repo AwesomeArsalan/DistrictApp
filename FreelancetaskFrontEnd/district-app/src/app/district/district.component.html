@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="jumbotron">
+    <label for="divisionSelect">Select District</label>
+    <select class="custom-select" [(ngModel)]="districtSelected" (ngModelChange)="onDivisionSelect($event)">
+      <option *ngFor="let district of districtList" [value]="district.name">
+        {{district.name}}
+      </option>
+    </select>
+  </div>
+
+  <div *ngIf="circleList.length !== 0">
+    <div class="">
+      <h3 class="">Circle List</h3>
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th>Id</th>
+            <th>Circle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let circle of circleList">
+            <td>{{circle.id}}</td>
+            <td>{{circle.name}}</td>         
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+

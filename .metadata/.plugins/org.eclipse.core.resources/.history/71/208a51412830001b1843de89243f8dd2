@@ -1,0 +1,21 @@
+package com.springjpa.freelancetask.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springjpa.freelancetask.entity.District;
+import com.springjpa.freelancetask.repository.DistrictRepository;
+
+@Service
+public class DivisionService {
+
+	@Autowired
+	private DistrictRepository districtRepository;
+	
+	public String getDivision(Integer districtId) {
+		 Optional<District> district = districtRepository.findById(districtId);
+		 return district.get().getName();
+	}
+}

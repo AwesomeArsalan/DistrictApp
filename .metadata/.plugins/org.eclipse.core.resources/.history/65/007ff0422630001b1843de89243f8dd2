@@ -1,0 +1,5 @@
+package com.springjpa.freelancetask.service;
+
+public class DistrictService {
+
+}

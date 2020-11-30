@@ -1,0 +1,5 @@
+package com.springjpa.freelancetask.entity;
+
+public class Division {
+
+}

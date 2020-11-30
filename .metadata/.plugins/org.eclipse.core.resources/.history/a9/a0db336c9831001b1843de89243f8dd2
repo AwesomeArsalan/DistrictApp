@@ -1,0 +1,30 @@
+package com.springjpa.freelancetask.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springjpa.freelancetask.entity.Division;
+import com.springjpa.freelancetask.repository.DivisionRepository;
+
+@Service
+public class DivisionService {
+
+	@Autowired
+	private DivisionRepository divisionRepository;
+
+	public Division getDivision(Integer districtId) {
+		Optional<Division> division = divisionRepository.findById(districtId);
+		return division.get();
+	}
+
+	public boolean addDivision(Division division) {
+		boolean status = false;
+		Division divs = divisionRepository.save(division);
+		if (null != divs) {
+			status = true;
+		}
+		return status;
+	}
+}

@@ -1,0 +1,5 @@
+package com.springjpa.freelancetask.controller;
+
+public class Controller {
+
+}
